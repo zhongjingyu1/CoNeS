@@ -1,0 +1,1 @@
+[VOC2012/2007](http://host.robots.ox.ac.uk/pascal/VOC/), [MS-COCO](https://cocodataset.org/#download), and [NUS-WIDE](https://drive.google.com/file/d/0B7IzDz-4yH_HMFdiSE44R1lselE/view)/[split](https://miil-public-eu.oss-eu-central-1.aliyuncs.com/model-zoo/ASL/nus_wid_data.csv)(nus_wid_data.csv) datasets
