@@ -85,7 +85,7 @@ We provide pretrained models on Google Drive for validation. ResNet101 trained o
 |  MS-COCO  | ResNet-101  |   0.4  |  73.55 | 576 $$\times$$ 576   | [model](https://drive.google.com/drive/folders/1ju2zTv6pOuso8wBixN4RqLtszU8d8WDk?hl=zh-cn)   |
 
 ## Acknowledgements
-We use code from [CSRA](https://github.com/Kevinz-code/CSRA). We thank the authors for releasing their code.
+We use code from [CSRA](https://github.com/Kevinz-code/CSRA) and [ASL](https://openaccess.thecvf.com/content/ICCV2021/papers/Ridnik_Asymmetric_Loss_for_Multi-Label_Classification_ICCV_2021_paper.pdf). We thank the authors for releasing their code.
 
 ## Contact
 If you have any questions, please create an issue on this repository or contact at [23171214508@stu.xidian.edu.cn](mailto:23171214508@stu.xidian.edu.cn).
