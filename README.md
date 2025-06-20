@@ -63,7 +63,11 @@ We similarly provide training code on the real-world dataset NUS-WIDE, which has
 ```
 python main_real.py --dataset nuswide --num_cls 81 --img_size 224/448 --batch_size 16 --path_images "Dataset/nuswide" --r_ws 3 
 ```
-
+We also provide a BCE baseline code `main_BCE.py`, which you can run as follows:
+```
+python main_BCE.py --dataset voc07 --num_cls 20 --img_size 224/448 --batch_size 16 --partial_rate 0.1/0.2/0.4 --path_images "Dataset/VOCdevkit"
+python main_BCE.py --dataset coco --num_cls 80 --img_size 224/448 --batch_size 16 --partial_rate 0.05/0.1/0.2 --path_images "Dataset/COCO2014"
+```
 ### Validation
 We provide pretrained models on Google Drive for validation. ResNet101 trained on ImageNet with CutMix augmentation can be downloaded here.
 |  Dataset  |   Backbone |  $$\rho$$|  mAP(%) |  Resolution	  |     Download      |
