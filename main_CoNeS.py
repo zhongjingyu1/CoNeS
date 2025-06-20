@@ -27,7 +27,7 @@ def Args():
     parser.add_argument("--num_cls", default=20, type=int, choices=[20, 80])
     parser.add_argument("--train_aug", default=["randomflip", "resizedcrop"], type=list)
     parser.add_argument("--test_aug", default=[], type=list)
-    parser.add_argument("--img_size", default=224, type=int, choices=[224, 448, 576])
+    parser.add_argument("--img_size", default=448, type=int, choices=[224, 448, 576])
     parser.add_argument("--batch_size", default=16, type=int)
     parser.add_argument('--partial_rate', default=0.1, type=float, choices=[0.05, 0.1, 0.2, 0.4])
     parser.add_argument("--path_images", default="Dataset/VOCdevkit", type=str)
