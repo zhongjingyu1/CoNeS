@@ -30,13 +30,13 @@ Shell
             ...
     ├── VOCdevkit
         ├── VOC2007
-        ├── Annotations
-        ├── ImageSets
-        ├── JPEGImages
-            ├── 0000001.jpg
-            ...
-        ├── SegementationClass
-        ├── SegementationObject
+            ├── Annotations
+            ├── ImageSets
+            ├── JPEGImages
+                ├── 0000001.jpg
+                ...
+            ├── SegementationClass
+            ├── SegementationObject
     ├── nuswide
         ├── images
             ├── 0_2124494179_b039ddccac_m.jpg
