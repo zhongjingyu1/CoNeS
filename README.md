@@ -42,24 +42,6 @@ Shell
             ├── 0_2124494179_b039ddccac_m.jpg
             ...
 ```
-Then directly run the following command to generate json file (for implementation) of these datasets.
-```
-python utils/prepare_voc.py  --data_path  Dataset/VOCdevkit
-python utils/prepare_coco.py --data_path  Dataset/COCO2014
-```
-Please note that the generated json file is initially in `utils/prepare`, please move it to `data/voc07` or `data/coco` manually. `nus_wid_data.csv` file is available for download at [split](https://miil-public-eu.oss-eu-central-1.aliyuncs.com/model-zoo/ASL/nus_wid_data.csv).
-```
-Shell
-├── data
-    ├── coco
-        ├── train_coco2014.json
-        ├── val_coco2014.json
-    ├── voc07
-        ├── test_voc07.json
-        ├── trainval_voc07.json
-    ├── nuswide
-        ├── nus_wid_data.csv
-```
 In order to provide a fair comparison environment, we placed the various three noise labeling environments of the constructed VOC2007 and MS-COCO datasets in pre-processed-data.
 ```
 pre-processed-data/coco_0.05.npy
@@ -74,13 +56,14 @@ You can also generate your own noise labels by simply deleting the existing .npy
 ### Experiments
 We provide training code for adding noise on the VOC2007 and MS-COCO datasets:
 ```
-python main_partial.py --dataset voc07 --num_cls 20 --img_size 224/448 --batch_size 16 --partial_rate 0.1/0.2/0.4 --r_ws 3
-python main_partial.py --dataset coco --num_cls 80 --img_size 224/448 --batch_size 16 --partial_rate 0.05/0.1/0.2 --r_ws 2
+python main_CoNeS.py --dataset voc07 --num_cls 20 --img_size 224/448 --batch_size 16 --partial_rate 0.1/0.2/0.4 --path_images "Dataset/VOCdevkit" --r_ws 3
+python main_CoNeS.py --dataset coco --num_cls 80 --img_size 224/448 --batch_size 16 --partial_rate 0.05/0.1/0.2 --path_images "Dataset/COCO2014" --r_ws 2
 ```
 We similarly provide training code on the real-world dataset NUS-WIDE, which has no added noise:
 ```
 python main_real.py --dataset nuswide --num_cls 81 --img_size 224/448 --batch_size 16 --path_images "Dataset/nuswide" --r_ws 3 
 ```
+
 ### Validation
 We provide pretrained models on Google Drive for validation. ResNet101 trained on ImageNet with CutMix augmentation can be downloaded here.
 |  Dataset  |   Backbone |  $$\rho$$|  mAP(%) |  Resolution	  |     Download      |
