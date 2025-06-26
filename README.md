@@ -75,18 +75,12 @@ We provide pretrained models on Google Drive for validation. ResNet101 trained o
 |  VOC2007  | ResNet-101  |   0.1  |  92.10 | 448 $$\times$$ 448   | [model](https://drive.google.com/drive/folders/1ju2zTv6pOuso8wBixN4RqLtszU8d8WDk?hl=zh-cn)   |
 |  VOC2007  | ResNet-101  |   0.2  |  91.12 | 448 $$\times$$ 448   | [model](https://drive.google.com/drive/folders/1ju2zTv6pOuso8wBixN4RqLtszU8d8WDk?hl=zh-cn)   |
 |  VOC2007  | ResNet-101  |   0.4  |  88.43 | 448 $$\times$$ 448   | [model](https://drive.google.com/drive/folders/1ju2zTv6pOuso8wBixN4RqLtszU8d8WDk?hl=zh-cn)   |
-|  VOC2007  | ResNet-101  |   0.1  |  91.61 | 576 $$\times$$ 576   | [model](https://drive.google.com/drive/folders/1ju2zTv6pOuso8wBixN4RqLtszU8d8WDk?hl=zh-cn)   |
-|  VOC2007  | ResNet-101  |   0.2  |  90.54 | 576 $$\times$$ 576   | [model](https://drive.google.com/drive/folders/1ju2zTv6pOuso8wBixN4RqLtszU8d8WDk?hl=zh-cn)   |
-|  VOC2007  | ResNet-101  |   0.4  |  88.09 | 576 $$\times$$ 576   | [model](https://drive.google.com/drive/folders/1ju2zTv6pOuso8wBixN4RqLtszU8d8WDk?hl=zh-cn)   |
 
 |  Dataset  |   Backbone |  $$\rho$$|  mAP(%) |  Resolution	  |     Download      |
 | :---------: |:---------:| :------------: | :-----------: | :---------: | :----------------: |
 |  MS-COCO  | ResNet-101  |   0.1  |  75.96 | 448 $$\times$$ 448   | [model](https://drive.google.com/drive/folders/1ju2zTv6pOuso8wBixN4RqLtszU8d8WDk?hl=zh-cn)   |
 |  MS-COCO  | ResNet-101  |   0.2  |  75.34 | 448 $$\times$$ 448   | [model](https://drive.google.com/drive/folders/1ju2zTv6pOuso8wBixN4RqLtszU8d8WDk?hl=zh-cn)   |
 |  MS-COCO  | ResNet-101  |   0.4  |  73.94 | 448 $$\times$$ 448   | [model](https://drive.google.com/drive/folders/1ju2zTv6pOuso8wBixN4RqLtszU8d8WDk?hl=zh-cn)   |
-|  MS-COCO  | ResNet-101  |   0.1  |  75.45 | 576 $$\times$$ 576   | [model](https://drive.google.com/drive/folders/1ju2zTv6pOuso8wBixN4RqLtszU8d8WDk?hl=zh-cn)   |
-|  MS-COCO  | ResNet-101  |   0.2  |  74.54 | 576 $$\times$$ 576   | [model](https://drive.google.com/drive/folders/1ju2zTv6pOuso8wBixN4RqLtszU8d8WDk?hl=zh-cn)   |
-|  MS-COCO  | ResNet-101  |   0.4  |  73.55 | 576 $$\times$$ 576   | [model](https://drive.google.com/drive/folders/1ju2zTv6pOuso8wBixN4RqLtszU8d8WDk?hl=zh-cn)   |
 
 ## Acknowledgements
 We use code from [CSRA](https://github.com/Kevinz-code/CSRA) and [ASL](https://openaccess.thecvf.com/content/ICCV2021/papers/Ridnik_Asymmetric_Loss_for_Multi-Label_Classification_ICCV_2021_paper.pdf). We thank the authors for releasing their code.
