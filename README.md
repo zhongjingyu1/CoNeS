@@ -85,10 +85,12 @@ We provide pretrained models on Google Drive for validation. ResNet101 trained o
 ## Acknowledgements
 We use code from [CSRA](https://github.com/Kevinz-code/CSRA) and [ASL](https://github.com/Alibaba-MIIL/ASL). We thank the authors for releasing their code.
 
+% ## Citing
+% If you find this code useful, please consider to cite our work.
+% ```
+% ``` 
+
 ## Contact
 If you have any questions, please create an issue on this repository or contact at [23171214508@stu.xidian.edu.cn](mailto:23171214508@stu.xidian.edu.cn).
 
-## Citing
-If you find this code useful, please consider to cite our work.
-```
-``` 
+
