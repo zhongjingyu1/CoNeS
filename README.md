@@ -11,7 +11,13 @@ Partial multi-label image classification (PMLIC) learns from typical weak superv
 
 <img src='./flow.png' width=800>
 
-## CoNeS Implementation
+## Requirements
+- Python 3.7
+- pytorch 1.6
+- torchvision 0.7.0
+- pycocotools 2.0
+- tqdm 4.49.0, pillow 7.2.0
+
 ### Dataset
 We first provide access to the datasets to be evaluated/trained for deep partial multi-label learning, the [VOC2012/2007](http://host.robots.ox.ac.uk/pascal/VOC/), [MS-COCO](https://cocodataset.org/#download), and [NUS-WIDE](https://drive.google.com/file/d/0B7IzDz-4yH_HMFdiSE44R1lselE/view)/[split](https://miil-public-eu.oss-eu-central-1.aliyuncs.com/model-zoo/ASL/nus_wid_data.csv)(nus_wid_data.csv) datasets need to be downloaded. Since some urls for download have been deleted, we employ the dataset version in [ASL](https://openaccess.thecvf.com/content/ICCV2021/papers/Ridnik_Asymmetric_Loss_for_Multi-Label_Classification_ICCV_2021_paper.pdf). Arrange the downloaded dataset in the following way:
 ```
