@@ -75,7 +75,7 @@ python main_BCE.py --dataset voc07 --num_cls 20 --img_size 224/448 --batch_size 
 python main_BCE.py --dataset coco --num_cls 80 --img_size 224/448 --batch_size 16 --partial_rate 0.05/0.1/0.2 --path_images "Dataset/COCO2014"
 ```
 ### Validation
-We provide pretrained models on Google Drive for validation. ResNet101 trained on ImageNet with CutMix augmentation can be downloaded here.
+We provide pretrained models on Google Drive for validation. ResNet101 trained on ImageNet can be downloaded [here](https://download.pytorch.org/models/resnet101-5d3b4d8f.pth).
 |  Dataset  |   Backbone |  $$\rho$$|  mAP(%) |  Resolution	  |     Download      |
 | :---------: |:---------:| :------------: | :-----------: | :---------: | :----------------: |
 |  VOC2007  | ResNet-101  |   0.1  |  92.10 | 448 $$\times$$ 448   | [model](https://drive.google.com/file/d/1u0TIe6H21YRhKZ4gLg8NjmlkavvSjE0W/view?usp=sharing)   |
