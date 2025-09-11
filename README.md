@@ -1,7 +1,7 @@
 ## CoNeS--Correlation-Induced Negative Suppression Disambiguation Loss for Partial Multi-label Image Classification
 [Paper]() |
-[Pretrained models]()  |
-[Datasets]()
+[Pretrained models](### Validation)  |
+[Datasets](### Dataset)
 
 Official PyTorch Implementation
 > Jingyu Zhong, Ronghua Shang, Shasha Mao, Jinhong Ren, Weitong Zhang
