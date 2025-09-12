@@ -47,6 +47,16 @@ Shell
         ├── images
             ├── 0_2124494179_b039ddccac_m.jpg
             ...
+    ├── VG
+        ├── VG_100K
+            ├── 1.jpg
+            ...
+        ├── formatted_train_images.npy
+        ├── formatted_train_labels.npy
+        ├── formatted_val_images.npy
+        ├── formatted_val_labels.npy
+        ├── objects.json
+        ├── vg256.json
 ```
 In order to provide a fair comparison environment, we placed the various three noise labeling environments of the constructed VOC2007 and MS-COCO datasets in pre-processed-data.
 ```
