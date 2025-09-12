@@ -29,7 +29,7 @@ rm objects.zip
 rm -rf VG_100K_2
 ```
 
-Data directory for VG256.
+## Data directory for VG256.
 
 After following all of the data preparation instructions, the top level of this directory should consist of the following files and directories:
 * `VG_100K/`
