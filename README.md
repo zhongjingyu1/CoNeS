@@ -3,6 +3,8 @@
 [Pretrained models](#Validation)  |
 [Datasets](#Dataset)
 
+The article "Correlation-Induced Negative Suppression Disambiguation Loss for Partial Multi-label Image Classification" has been accepted by IEEE Transactions on Circuits and Systems for Video Technology.
+
 Official PyTorch Implementation
 > Jingyu Zhong, Ronghua Shang, Shasha Mao, Jinhong Ren, Weitong Zhang
 
