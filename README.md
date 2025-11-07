@@ -112,6 +112,8 @@ If you find this code useful, please consider to cite our work.
   author={Zhong, Jingyu and Shang, Ronghua and Mao, Shasha and Ren, Jinhong and Feng, Jie},
   journal={IEEE Transactions on Circuits and Systems for Video Technology},
   year={2025},
+  pages={1-1},
+  doi={10.1109/TCSVT.2025.3629753},
   publisher={IEEE}
 }
 ```
