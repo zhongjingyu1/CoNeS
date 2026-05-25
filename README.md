@@ -91,15 +91,15 @@ python main_BCE.py --dataset coco --num_cls 80 --img_size 224/448 --batch_size 1
 We provide pretrained models on Google Drive for validation. ResNet101 trained on ImageNet can be downloaded [here](https://download.pytorch.org/models/resnet101-5d3b4d8f.pth).
 |  Dataset  |   Backbone |  $$\rho$$|  mAP(%) |  Resolution	  |     Download      |
 | :---------: |:---------:| :------------: | :-----------: | :---------: | :----------------: |
-|  VOC2007  | ResNet-101  |   0.1  |  92.10 | 448 $$\times$$ 448   | [model](https://drive.google.com/file/d/1u0TIe6H21YRhKZ4gLg8NjmlkavvSjE0W/view?usp=sharing)   |
-|  VOC2007  | ResNet-101  |   0.2  |  91.12 | 448 $$\times$$ 448   | [model](https://drive.google.com/file/d/1u0TIe6H21YRhKZ4gLg8NjmlkavvSjE0W/view?usp=sharing)   |
-|  VOC2007  | ResNet-101  |   0.4  |  88.43 | 448 $$\times$$ 448   | [model](https://drive.google.com/file/d/1u0TIe6H21YRhKZ4gLg8NjmlkavvSjE0W/view?usp=sharing)   |
+|  VOC2007  | ResNet-101  |   0.1  |  92.10 | 448 $$\times$$ 448   | [model](https://drive.google.com/file/d/13J4ZlrU4VFezDLqmCid50s-Onj9NFFqD/view)   |
+|  VOC2007  | ResNet-101  |   0.2  |  91.12 | 448 $$\times$$ 448   | [model](https://drive.google.com/file/d/13GsLQCWPpExTBTJylHsCuacJuaee_K4Z/view)   |
+|  VOC2007  | ResNet-101  |   0.4  |  88.43 | 448 $$\times$$ 448   | [model](https://drive.google.com/file/d/1jWOoW4xzzAT9am-f_P5Niu1_kU7FDphK/view)   |
 
 |  Dataset  |   Backbone |  $$\rho$$|  mAP(%) |  Resolution	  |     Download      |
 | :---------: |:---------:| :------------: | :-----------: | :---------: | :----------------: |
-|  MS-COCO  | ResNet-101  |   0.05  |  75.96 | 448 $$\times$$ 448   | [model](https://drive.google.com/file/d/1u0TIe6H21YRhKZ4gLg8NjmlkavvSjE0W/view?usp=sharing)   |
-|  MS-COCO  | ResNet-101  |   0.1  |  75.34 | 448 $$\times$$ 448   | [model](https://drive.google.com/file/d/1u0TIe6H21YRhKZ4gLg8NjmlkavvSjE0W/view?usp=sharing)   |
-|  MS-COCO  | ResNet-101  |   0.2  |  73.94 | 448 $$\times$$ 448   | [model](https://drive.google.com/file/d/1u0TIe6H21YRhKZ4gLg8NjmlkavvSjE0W/view?usp=sharing)   |
+|  MS-COCO  | ResNet-101  |   0.05  |  75.96 | 448 $$\times$$ 448   | [model](https://drive.google.com/file/d/1fEJw6bkT8MlI8ggoPCcC9aKWF9VY6EiO/view)   |
+|  MS-COCO  | ResNet-101  |   0.1  |  75.34 | 448 $$\times$$ 448   | [model](https://drive.google.com/file/d/1u0TIe6H21YRhKZ4gLg8NjmlkavvSjE0W/view)   |
+|  MS-COCO  | ResNet-101  |   0.2  |  73.94 | 448 $$\times$$ 448   | [model](https://drive.google.com/file/d/1G9pF19z3XFPTeRVw0X0OjNpNJVU4fSHf/view)   |
 
 ## Acknowledgements
 We use code from [CSRA](https://github.com/Kevinz-code/CSRA), [ASL](https://github.com/Alibaba-MIIL/ASL), and [MLC-PAT](https://github.com/xiemk/MLC-PAT). We thank the authors for releasing their code.
