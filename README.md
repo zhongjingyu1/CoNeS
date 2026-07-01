@@ -110,12 +110,11 @@ If you find this code useful, please consider to cite our work.
 @article{zhong2025correlation,
   title={Correlation-Induced Negative Suppression Disambiguation Loss for Partial Multi-label Image Classification},
   author={Zhong, Jingyu and Shang, Ronghua and Mao, Shasha and Ren, Jinhong and Feng, Jie},
-  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
   year={2026},
-  pages={4242 - 4258},
   volume={36},
   number={4},
-  doi={10.1109/TCSVT.2025.3629753},
+  pages={4242-4258},
   publisher={IEEE}
 }
 ```
